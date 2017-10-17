@@ -43,5 +43,15 @@
     <Compile Include="ctrl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppGlobals\AppGlobals.csproj">
+      <Project>{899c3cb1-9a7d-4b54-a822-2f022e76cf65}</Project>
+      <Name>AppGlobals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\Library.csproj">
+      <Project>{a63efbba-7ef1-42c5-bd89-b0e28b55a650}</Project>
+      <Name>Library</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

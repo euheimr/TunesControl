@@ -12,8 +12,9 @@ namespace AppGlobals
     {
 
         //main
-        public static string AppName = "Tunes Control";
+        public static string AppName = Convert.ToString(Assembly.GetExecutingAssembly().GetName());
         public static string AppVersion = Convert.ToString(Assembly.GetExecutingAssembly().GetName().Version);
+        public static string AppNameVer = AppName + " v" + AppVersion;
 
         public static string userName;
         public static string password;
