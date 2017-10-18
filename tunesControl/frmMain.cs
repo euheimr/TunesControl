@@ -41,5 +41,10 @@ namespace tunesControl
         {
 
         }
+
+        private void btnConsole_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

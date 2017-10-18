@@ -34,6 +34,7 @@
             this.hELPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsSource = new System.Windows.Forms.ToolStripMenuItem();
             this.tsCheckForUpdate = new System.Windows.Forms.ToolStripMenuItem();
+            this.consoleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,7 +67,8 @@
             // 
             this.hELPToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsSource,
-            this.tsCheckForUpdate});
+            this.tsCheckForUpdate,
+            this.consoleToolStripMenuItem});
             this.hELPToolStripMenuItem.Name = "hELPToolStripMenuItem";
             this.hELPToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.hELPToolStripMenuItem.Text = "HELP";
@@ -84,6 +86,13 @@
             this.tsCheckForUpdate.Size = new System.Drawing.Size(170, 22);
             this.tsCheckForUpdate.Text = "Check for updates";
             this.tsCheckForUpdate.Click += new System.EventHandler(this.tsCheckForUpdates_Click);
+            // 
+            // consoleToolStripMenuItem
+            // 
+            this.consoleToolStripMenuItem.Name = "consoleToolStripMenuItem";
+            this.consoleToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.consoleToolStripMenuItem.Text = "Console";
+            this.consoleToolStripMenuItem.Click += new System.EventHandler(this.btnConsole_Click);
             // 
             // frmMain
             // 
@@ -113,6 +122,7 @@
         private System.Windows.Forms.ToolStripMenuItem hELPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tsSource;
         private System.Windows.Forms.ToolStripMenuItem tsCheckForUpdate;
+        private System.Windows.Forms.ToolStripMenuItem consoleToolStripMenuItem;
     }
 }
 

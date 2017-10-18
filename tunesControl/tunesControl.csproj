@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Console.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Console.Designer.cs">
+      <DependentUpon>Console.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Console.resx">
+      <DependentUpon>Console.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -79,6 +88,32 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\DebugLogging.csproj">
+      <Project>{0ba0d438-910f-44f5-b1bc-e1bbc228f417}</Project>
+      <Name>DebugLogging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libs\AppGlobals\AppGlobals.csproj">
+      <Project>{899c3cb1-9a7d-4b54-a822-2f022e76cf65}</Project>
+      <Name>AppGlobals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libs\ExtensionMethods\ExtensionMethods.csproj">
+      <Project>{7c993cda-87b8-47dc-9d69-0007847fc153}</Project>
+      <Name>ExtensionMethods</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libs\FilePathUtils\FilePathLib.csproj">
+      <Project>{ee08d26e-cbe0-4f25-8583-8263652a3b6c}</Project>
+      <Name>FilePathLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libs\Library\Library.csproj">
+      <Project>{a63efbba-7ef1-42c5-bd89-b0e28b55a650}</Project>
+      <Name>Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libs\tunesControlLib\tunesCtrlLib.csproj">
+      <Project>{709b58b0-2cc9-469a-bc98-bc884ac952d6}</Project>
+      <Name>tunesCtrlLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

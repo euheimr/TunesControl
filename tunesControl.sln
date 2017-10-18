@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "libs\Library\Lib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tunesCtrlLib", "libs\tunesControlLib\tunesCtrlLib.csproj", "{709B58B0-2CC9-469A-BC98-BC884AC952D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugLogging", "ClassLibrary1\DebugLogging.csproj", "{0BA0D438-910F-44F5-B1BC-E1BBC228F417}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{709B58B0-2CC9-469A-BC98-BC884AC952D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{709B58B0-2CC9-469A-BC98-BC884AC952D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{709B58B0-2CC9-469A-BC98-BC884AC952D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA0D438-910F-44F5-B1BC-E1BBC228F417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA0D438-910F-44F5-B1BC-E1BBC228F417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA0D438-910F-44F5-B1BC-E1BBC228F417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA0D438-910F-44F5-B1BC-E1BBC228F417}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{EE08D26E-CBE0-4F25-8583-8263652A3B6C} = {3E509D1D-436C-4607-AFC5-D921E6520D96}
 		{A63EFBBA-7EF1-42C5-BD89-B0E28B55A650} = {3E509D1D-436C-4607-AFC5-D921E6520D96}
 		{709B58B0-2CC9-469A-BC98-BC884AC952D6} = {3E509D1D-436C-4607-AFC5-D921E6520D96}
+		{0BA0D438-910F-44F5-B1BC-E1BBC228F417} = {3E509D1D-436C-4607-AFC5-D921E6520D96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {506B09AE-5831-45EA-9EC0-F6C7A948EEE9}
