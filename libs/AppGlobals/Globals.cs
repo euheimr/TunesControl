@@ -16,6 +16,10 @@ namespace AppGlobals
         public static string AppVersion = Convert.ToString(Assembly.GetExecutingAssembly().GetName().Version);
         public static string AppNameVer = AppName + " v" + AppVersion;
 
+        //CURRENTLY ON DEBUG
+        public static bool debug = true;
+
+
         public static string userName;
         public static string password;
 

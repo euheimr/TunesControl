@@ -39,11 +39,14 @@ namespace tunesControl
 
         private void tsOptions_Click(object sender, EventArgs e)
         {
-
+            //TODO
+            //opens a new form (frmOptions) that lists what you can keybind to. 
         }
 
         private void btnConsole_Click(object sender, EventArgs e)
         {
+            //run the Console form
+            //Application.Run(new frmConsole());
             
         }
     }

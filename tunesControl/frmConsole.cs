@@ -12,11 +12,11 @@ using DebugLogging;
 
 namespace tunesControl
 {
-    public partial class Console : Form
+    public partial class frmConsole : Form
     {
         TextWriter _writer = null;
         
-        public Console()
+        public frmConsole()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace tunesControl
         private void Console_Load(object sender, EventArgs e)
         {
             //hello writer
-            _writer = new 
+            //_writer = new 
         }
         
     }

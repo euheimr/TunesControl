@@ -1,6 +1,6 @@
 ﻿namespace tunesControl
 {
-    partial class Console
+    partial class frmConsole
     {
         /// <summary>
         /// Required designer variable.
