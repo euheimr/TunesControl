@@ -37,6 +37,7 @@
             this.tbConsole.Location = new System.Drawing.Point(13, 12);
             this.tbConsole.Multiline = true;
             this.tbConsole.Name = "tbConsole";
+            this.tbConsole.ReadOnly = true;
             this.tbConsole.Size = new System.Drawing.Size(507, 405);
             this.tbConsole.TabIndex = 0;
             // 
@@ -49,14 +50,14 @@
             this.bExit.Text = "Exit";
             this.bExit.UseVisualStyleBackColor = true;
             // 
-            // Console
+            // frmConsole
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(532, 458);
             this.Controls.Add(this.bExit);
             this.Controls.Add(this.tbConsole);
-            this.Name = "Console";
+            this.Name = "frmConsole";
             this.Text = "Console";
             this.ResumeLayout(false);
             this.PerformLayout();
